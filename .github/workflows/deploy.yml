@@ -28,7 +28,10 @@ jobs:
      run: |
       git config --global user.email "jero@uppertech.net"
       git config --global user.name "jero-uppertech"
-      git config --global url.https://${{ secrets.GH_TOKEN }}@github.com/.insteadOf https://github.com/
-
+      git config --global url."https://${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
+      env:
+       GH_TOKEN: ${{ secrets.VKKOSHER }}
    - name: Run deploy
+     env:
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
      run: npm run deploy
