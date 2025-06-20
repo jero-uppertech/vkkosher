@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
 <div 
     className="absolute top-[25%] right-0 -translate-y-1/2
       bg-gold text-navy font-bold py-3 px-6 
-      rounded-md cursor-pointer shadow-lg z-[1000]
+      rounded-md cursor-pointer shadow-lg z-[49]
       sm:max-w-xs max-w-[calc(100vw-1rem)]
       transition-opacity duration-300 hover:opacity-50
       "
