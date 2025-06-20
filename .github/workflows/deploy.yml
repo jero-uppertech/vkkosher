@@ -24,14 +24,18 @@ jobs:
    - name: Build project
      run: npm run build
 
-   - name: Configure Git user
+   - name: Configure Git user and URL rewrite
      run: |
       git config --global user.email "jero@uppertech.net"
       git config --global user.name "jero-uppertech"
+      # This uses the GH_TOKEN which will be available from the 'env' block below
       git config --global url."https://${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
-      env:
-       GH_TOKEN: ${{ secrets.VKKOSHER }}
+     env:
+      # Use the built-in GitHub Token for authentication
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
    - name: Run deploy
      env:
-      GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      # Pass the same built-in GitHub Token to your deploy script (assuming it's gh-pages)
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
      run: npm run deploy
