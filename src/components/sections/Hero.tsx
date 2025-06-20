@@ -3,7 +3,7 @@ import { CheckCircle } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative h-screen flex items-center min-h-min py-4">
+    <section className="relative h-screen flex items-center min-h-min py-8">
       {/* Hero Background */}
  
   <div 
