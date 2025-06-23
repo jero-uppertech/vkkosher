@@ -27,10 +27,11 @@ const About: React.FC = () => {
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our History</h3>
             <p className="text-gray-600 mb-6">
             {/* Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, we have grown into a globally recognized authority in Volove Kashrus certification, serving thousands of companies across six continents. */}
-            Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, 
+            {/* Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, 
             Volove Kashrus began as a small local certification agency in Brooklyn. Over the decades, 
             we have grown into a globally respected and trusted authority in VK kosher certification, 
-            serving thousands of companies across six continents.
+            serving thousands of companies across six continents. */}
+            Founded in 1955 by Rabbi Lipa Teitelbaum and rebranded in 1985 by his son, Rabbi N. E. Teitelbaum, VK Kosher represents the fourth generation in kosher supervision. What began as a small local certification agency in Brooklyn has grown over the decades into a globally respected and trusted authority in VK Kosher certification, serving thousands of companies across six continents. For over 70 years, our family has been dedicated to upholding the highest standards of kashrus, building a legacy of trust and expertise that consumers and businesses rely on.
             </p>
             
             <h3 className="font-serif text-2xl font-bold text-navy mb-4">Our Approach</h3>
