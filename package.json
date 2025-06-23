@@ -4,6 +4,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "deploy": "gh-pages -d dist -u \"github-actions-bot <support+actions@github.com>\" --repo https://x-access-token:${GH_TOKEN}@github.com/jero-uppertech/vkkosher.git"
   "scripts": {
     "dev": "vite",
     "build": "vite build",
