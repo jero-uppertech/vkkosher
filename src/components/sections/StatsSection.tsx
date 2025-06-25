@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Clock, Users, Award, Shield, Globe, Calendar, Box } from 'lucide-react';
+import { Clock, Users, Award, Shield, Globe, Calendar, Box, ThumbsUp} from 'lucide-react';
  
 // Define the prop types for NumberCounter
 interface NumberCounterProps {
@@ -36,6 +36,7 @@ const NumberCounter = ({ end, duration, suffix = '' }: NumberCounterProps) => {
 const StatsStrip = () => {
   const stats = [
     { value: 5000, suffix: '+', label: 'Products Certified Worldwide', desc: '', icon: Box }, // Assign the icon component
+    { value: 7, suffix: '+', label: 'Years of Experience', desc: '', icon: ThumbsUp }, // Assign the icon component
     { value: 4, suffix: '', label: 'Generations of Trusted Leadership', desc: '', icon: Award }, // Assign the icon component
     { value: 6, suffix: '+', label: 'Continents Served', desc: '', icon: Globe }, // Assign the icon component
   ];

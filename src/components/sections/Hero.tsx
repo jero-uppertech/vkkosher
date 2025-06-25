@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="flex items-center">
               <CheckCircle className="h-5 w-5 text-gold mr-2" />
-              <span>30+ years of expertise</span>
+              <span>70+ years of expertise</span>
             </div>
             <div className="flex items-center">
               <CheckCircle className="h-5 w-5 text-gold mr-2" />
