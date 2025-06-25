@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: `url('${import.meta.env.BASE_URL}/pexels-anntarazevich-hero.jpg')`, 
+          backgroundImage: `url('${import.meta.env.BASE_URL}/pexels-anntarazevich-herov2.jpg')`, 
         }}
       >
         <div className="absolute inset-0 bg-navy bg-opacity-70"></div>
