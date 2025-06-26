@@ -42,7 +42,7 @@ const StatsStrip = () => {
   // Define the statistics data, including value, suffix, label, description, and icon component
   const stats = [
     { value: 5000, suffix: '+', label: 'Products Certified Worldwide', desc: '', icon: Box },
-    { value: 7, suffix: '+', label: 'Years of Experience', desc: '', icon: ThumbsUp },
+    { value: 70, suffix: '+', label: 'Years of Experience', desc: '', icon: ThumbsUp },
     { value: 4, suffix: '', label: 'Generations of Trusted Leadership', desc: '', icon: Award },
     { value: 6, suffix: '+', label: 'Continents Served', desc: '', icon: Globe },
   ];
