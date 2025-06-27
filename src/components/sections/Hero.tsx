@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <section className="relative h-screen flex items-center min-h-min py-8">
       {/* Hero Background */}
  
-  <div 
+  {/* <div 
     className="absolute top-[25%] right-0 -translate-y-1/2
       bg-gold text-navy font-bold py-3 px-6 
       rounded-md cursor-pointer shadow-lg z-[49]
@@ -15,12 +15,12 @@ const Hero: React.FC = () => {
       "
   >
     <span className="whitespace-nowrap text-sm sm:text-base">VOLOVE IS THE HECHSHER</span>
-  </div>
+  </div> */}
 
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: `url('${import.meta.env.BASE_URL}/pexels-anntarazevich-herov2.jpg')`, 
+          backgroundImage: `url('${import.meta.env.BASE_URL}/pexels-anntarazevich-herov3.jpg')`, 
         }}
       >
         <div className="absolute inset-0 bg-navy bg-opacity-70"></div>
